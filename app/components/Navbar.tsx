@@ -1,8 +1,8 @@
 'use client'
-import React from 'react'
-import Image from 'next/image'
-import Logo from "@/app/assets/images/Logo.png"
-import Menu from "../assets/images/Menu.png"
+import React from 'react';
+import Image from 'next/image';
+import Logo from "@/app/assets/images/Logo.png";
+import Menu from "../assets/images/Menu.png";
 
 type Props = {
     LinkStyle:string;
@@ -18,16 +18,15 @@ function Navbar({}: Props) {
         <Image src={Logo} alt='Logo'/>
         <ul className="flex space-x-[24px] max-md:hidden" >
             <li><a className={LinkStyle} href="/">Home</a></li>
-            <li><a className={LinkStyle} href="/Pages/News">News</a></li>
-            <li><a className={LinkStyle} href="/Pages/Podcasts">Podcasts</a></li>
-            <li><a className={LinkStyle} href="/Pages/Resources">Resources</a></li>
+            <li><a className={LinkStyle} href="/News">News</a></li>
+            <li><a className={LinkStyle} href="/Podcasts">Podcasts</a></li>
+            <li><a className={LinkStyle} href="/Resources">Resources</a></li>
         </ul>
         <button className='px-[14px] py-[10px] bg-Yellow rounded-[6px] max-md:hidden'>Contact Us</button>
-
           <Image className='cursor-pointer hidden max-md:block' src={Menu} alt='Menu-Icon'/>
        </div>
     </nav>
   )
 }
 
-export default Navbar
+export default Navbar;
