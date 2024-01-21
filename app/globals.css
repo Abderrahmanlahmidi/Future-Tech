@@ -12,5 +12,19 @@ body{
 }
 
 
+/* Add this CSS to your stylesheet */
+.custom-scrollbar-hidden {
+    scrollbar-width: thin;  /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  
+    &::-webkit-scrollbar {
+      width: 0.5rem;  /* Adjust the width as needed */
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;  /* Hide the scrollbar thumb */
+    }
+  }
+
 
  
