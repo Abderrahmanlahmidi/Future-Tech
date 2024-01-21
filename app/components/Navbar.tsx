@@ -18,9 +18,9 @@ function Navbar({}: Props) {
         <Image src={Logo} alt='Logo'/>
         <ul className="flex space-x-[24px] max-md:hidden" >
             <li><a className={LinkStyle} href="/">Home</a></li>
-            <li><a className={LinkStyle} href="/News">News</a></li>
-            <li><a className={LinkStyle} href="/Podcasts">Podcasts</a></li>
-            <li><a className={LinkStyle} href="/Resources">Resources</a></li>
+            <li><a className={LinkStyle} href="/pages/News">News</a></li>
+            <li><a className={LinkStyle} href="/pages/Podcasts">Podcasts</a></li>
+            <li><a className={LinkStyle} href="/pages/Resources">Resources</a></li>
         </ul>
         <button className='px-[14px] py-[10px] bg-Yellow rounded-[6px] max-md:hidden'>Contact Us</button>
           <Image className='cursor-pointer hidden max-md:block' src={Menu} alt='Menu-Icon'/>
