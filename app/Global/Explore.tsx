@@ -41,9 +41,7 @@ function Explore({}: Props) {
          </div>
        </div> 
       
-      <div>
-        hello
-      </div>
+
        
 
     </section>
