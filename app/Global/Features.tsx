@@ -53,7 +53,7 @@ function Features({}: Props) {
       
       {/* The Content number 2 */}
       <div className='grid-cols-7 max-md:grid-cols-1 max-md:grid-rows-2 grid max-md:block  ' >
-        <div className='border-1  border-r border-[#404040] w-full col-span-3  max-md:row-span-1  pl-[80px] max-md:pl-[16px] max-md:pr-[16px]  max-md:py-[50px]  pr-[60px] py-[122px] space-y-[40px] max-md:space-y-[20px]'>
+        <div className='border-1 max-md:border-b border-r border-[#404040] w-full col-span-3  max-md:row-span-1  pl-[80px] max-md:pl-[16px] max-md:pr-[16px]  max-md:py-[50px]  pr-[60px] py-[122px] space-y-[40px] max-md:space-y-[20px]'>
           <Image src={Icon4} alt='Icon' />
           <div>
             <h3 className='text-[30px] font-[600] text-[#fff]'>Research Insights Blogs</h3>
