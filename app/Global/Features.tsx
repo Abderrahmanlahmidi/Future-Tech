@@ -9,7 +9,7 @@ type Props = {}
 
 function Features({}: Props) {
   return (
-    <section className='' >
+    <section >
      <div className='py-[80px]  border-1 border-t border-b border-[#404040] px-[80px] max-md:px-[16px] max-md:py-[40px] bg-[#1A1A1A]' >
       <div className='space-y-[14px]' >
         <button className='py-[4px] rounded-[4px] px-[8px] bg-[#333333] text-[16px] max-md:text-[14px] font-[500] text-[#fff]' >Unlock the Power of</button>
@@ -18,7 +18,6 @@ function Features({}: Props) {
      </div>
 
      <div className='bg-[#141414]' >
-
       {/* The Content number 1 */}
       <div className='grid-cols-7 max-md:grid-cols-1 max-md:grid-rows-2 grid max-md:block' >
         <div className=' w-full col-span-3  max-md:row-span-1 border-r border-1 border-b border-[#404040]  pl-[80px] max-md:pl-[16px] max-md:pr-[16px]  max-md:py-[50px]  pr-[60px] py-[122px] space-y-[40px] max-md:space-y-[20px]'>

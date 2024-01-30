@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar';
 import Subscribe from '../../components/Subscribe';
 import Features from '../../Global/Features';
 import Explore from '../../Global/Explore';
+import Gateway from '@/app/Global/Gateway';
+
 
 type Props = {}
 
@@ -15,6 +17,7 @@ function Home({}: Props) {
        <Hero/>
        <Features/>
        <Explore/>
+       <Gateway/>
     </div>
   )
 } 

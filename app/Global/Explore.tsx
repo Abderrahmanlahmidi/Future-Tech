@@ -35,6 +35,7 @@ function Explore({}: Props) {
   const buttonStyle = "w-[201px] h-[70px] max-md:w-[151px] max-md:h-[57px] rounded-[7px] text-[14px] text-Grey hover:bg-[#262626] hover:text-[#fff] border border-1 border-[#262626]";
 
   return (
+
     <section>
         <div className='p-[80px] border-1 border-t border-b border-[#404040] max-md:px-[16px] max-md:py-[40px] bg-[#1a1a1a] flex max-md:flex-col max-md:space-y-[30px] justify-between items-center' >
            <div className='space-y-[14px]'>
@@ -57,7 +58,7 @@ function Explore({}: Props) {
 
       {/* Testimonials */}
       {Testimonials.map((items) => (
-         <div key={items.id} className='  grid grid-cols-8 max-md:grid-cols-1 max-md:space-y-[30px] max-md:px-[16px] max-md:py-[40px] px-[80px] py-[60px] bg-[#141414]  border-b border-t border-[#404040]' >
+         <div key={items.id} className='  grid grid-cols-8 max-md:grid-cols-1 max-md:space-y-[30px] max-md:px-[16px] max-md:py-[40px] px-[80px] py-[60px] bg-[#141414]   border-t border-[#404040]' >
          <div className='col-span-2 items-start flex space-x-[10px] justify-between ' >
            <div className='flex space-x-[10px]'>
             {/* Avatar */}
@@ -131,7 +132,6 @@ function Explore({}: Props) {
          </div> 
        </div>  
       ))}
-     
       </section>
   ) 
 
